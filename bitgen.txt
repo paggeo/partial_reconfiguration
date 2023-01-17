@@ -1,2 +1,0 @@
-write_cfgmem -force -format BIN -interface SMAPx32 -disablebitswap -loadbit "up 0x0 C:/Users/georg/Desktop/partialreconfig/wrapper_adder.bit" "C:/Users/georg/Desktop/partialreconfig/full.bin"
-write_cfgmem -force -format BIN -interface SMAPx32 -disablebitswap -loadbit "up 0x0 C:/Users/georg/Desktop/partialreconfig/reconfigure_module_subber_partial.bit" "C:/Users/georg/Desktop/partialreconfig/subber.bin"

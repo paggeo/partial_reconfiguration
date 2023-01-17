@@ -1,2 +1,7 @@
 *.bin
 *.bit
+*.jou
+*.log
+*.str
+.Xil
+mpsoc_partial_reconfiguration

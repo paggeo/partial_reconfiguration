@@ -9,7 +9,7 @@ In this tutorial, I developed a simple module that performs addition and subtrac
 <hr>
 The steps may not be optimal and some elements could be excluded. 
 
-## Zybo 
+## Vivado 
 - Create a block design
 - Add the Axi-Lite communication module | Status
   - The decupler and the gpio are not used 
@@ -30,13 +30,17 @@ The steps may not be optimal and some elements could be excluded.
 - In the design runs, there is a report, and on the vivado runs folder, there are the full bitstream and the partial ones, labeled impl1 and the name gives respectively. 
 
 - Export the hardware and get to vitis. 
-- Vitis: 
+
+## Vitis
 - In the .spr and the cpu tab modify the bsp settings to add the nessesary libraries to the Board Support Package. 
-- xilffs | xilfpga, xilsecure
+  - Zybo : xilffs
+  - MPSoC : xilffs,xilfpga, xilsecure
 - In the application lscript.ld adjust the heap size to be able to store the partial bitstream. 
-- The bitstream will be first stored in the DDR from the sd card and then it will be reconfigured.
 
 
+## Block Design
+### MPSoC block design
+![](/images/mpsoc_block_desing.png)
 
 ## Credits 
 - [Youtube video](https://www.youtube.com/watch?v=bY-ik39QI8w&list=PL9GWVTghqmkJKUHYGx-59WihvVO-d0y-f&index=2&ab_channel=MohammadS.Sadri) that explains someof this stuff. He is a bad person, putting the code behind a pay wall but at least he helped understand some of the basics. 

@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        BIN
+Interface          SMAPX32
+Size               32M
+Start Address      0x00000000
+End Address        0x01FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0126A9F3    Jan 17 12:04:45 2023    /home/georgepag/fun/partial_reconfiguration/tmp/mpsoc_wrapper.bit
